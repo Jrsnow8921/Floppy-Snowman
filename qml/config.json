@@ -1,0 +1,16 @@
+{
+  "title": "FlappyBird",
+  "identifier": "net.vplay.demos.FlappyBird",
+  "orientation": "portrait",
+  "versioncode": 1,
+  "versionname": "1.0",
+  "sdk": "daily",
+
+  "ios": {
+    "prerendered_icon": true
+  },
+  
+  "plugins": [ "gamecenter", "flurry", "facebook" ],
+  
+  "stage--": "publish"
+}
