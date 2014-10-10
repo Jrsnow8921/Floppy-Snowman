@@ -1,6 +1,6 @@
 
-set :stages, %w(development)
-set :default_stage, "development"
+set :stages, %w(production)
+set :default_stage, "production"
 require 'capistrano/ext/multistage'
 
 require "bundler/capistrano"
@@ -23,7 +23,7 @@ set :bundle_without, [:test, :development, :darwin]
 set :user, "jsnow"
 set :deploy_to, "/home/#{user}/apps/#{application}"
 set :deploy_via, :copy
-set :use_sudo, true
+set :use_sudo, false
 
 set :scm, :git
 set :branch, :master

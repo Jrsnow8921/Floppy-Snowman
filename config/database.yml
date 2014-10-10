@@ -1,4 +1,4 @@
-development:
+production:
   adapter: mysql
   host: 172.16.3.110
   port: 3306
