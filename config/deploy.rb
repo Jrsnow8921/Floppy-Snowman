@@ -15,7 +15,7 @@ load "config/recipes/log_rotate"
 
 server "172.16.3.110", :web, :app, :db, :primary => true
 
-set :application, "flappy.jsnow.com"
+set :application, "flappy.jsnow.com.conf"
 
 # There is a problem with rb-fsevent and deploying
 set :bundle_without, [:test, :development, :darwin]
