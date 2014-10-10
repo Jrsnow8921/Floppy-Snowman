@@ -1,0 +1,22 @@
+development:
+  adapter: mysql
+  host: 172.16.4.19
+  port: 3306
+  socket: /var/run/mysqld/mysqld.sock
+  protocol: TCP
+  database: flappy_bird
+ #encoding: CP1252
+  username: jsnow
+  password: justin3318
+
+production:
+  adapter: mysql
+  host: 172.16.4.19
+  port: 3306
+  socket: /var/run/mysqld/mysqld.sock
+  protocol: TCP
+  database: flappy_bird2
+ #encoding: CP1252
+  username: jsnow
+  password: justin3318
+

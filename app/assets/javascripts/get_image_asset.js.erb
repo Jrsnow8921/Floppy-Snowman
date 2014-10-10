@@ -1,0 +1,38 @@
+function font_small(x) {
+  switch(x) {
+    case "0": return "<%= asset_path('font_small_0.png') %>";
+    case "1": return "<%= asset_path('font_small_1.png') %>";
+    case "2": return "<%= asset_path('font_small_2.png') %>";
+    case "3": return "<%= asset_path('font_small_3.png') %>";
+    case "4": return "<%= asset_path('font_small_4.png') %>";
+    case "5": return "<%= asset_path('font_small_5.png') %>";
+    case "6": return "<%= asset_path('font_small_6.png') %>";
+    case "7": return "<%= asset_path('font_small_7.png') %>";
+    case "8": return "<%= asset_path('font_small_8.png') %>";
+    case "9": return "<%= asset_path('font_small_9.png') %>";
+  }
+}
+
+function font_big(x) {
+  switch(x) {
+    case "0": return "<%= asset_path('font_big_0.png') %>";
+    case "1": return "<%= asset_path('font_big_1.png') %>";
+    case "2": return "<%= asset_path('font_big_2.png') %>";
+    case "3": return "<%= asset_path('font_big_3.png') %>";
+    case "4": return "<%= asset_path('font_big_4.png') %>";
+    case "5": return "<%= asset_path('font_big_5.png') %>";
+    case "6": return "<%= asset_path('font_big_6.png') %>";
+    case "7": return "<%= asset_path('font_big_7.png') %>";
+    case "8": return "<%= asset_path('font_big_8.png') %>";
+    case "9": return "<%= asset_path('font_big_9.png') %>";
+  }
+}
+
+function get_medal(color) {
+  switch(color) {
+    case "bronze":   return "<%= asset_path('medal_bronze.png') %>";
+    case "silver":   return "<%= asset_path('medal_silver.png') %>";
+    case "gold":     return "<%= asset_path('medal_gold.png') %>";
+    case "platinum": return "<%= asset_path('medal_platinum.png') %>";
+  }
+}
