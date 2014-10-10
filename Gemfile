@@ -3,7 +3,8 @@ ruby '1.9.3'
 gem 'rails', '4.0.2'
 gem 'mysql'
 gem 'haml'
-
+gem 'capistrano'
+gem 'rvm-capistrano'
 gem 'sass-rails'
 
 gem 'uglifier', '>= 1.3.0'
