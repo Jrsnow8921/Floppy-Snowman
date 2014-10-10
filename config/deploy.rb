@@ -5,7 +5,7 @@ require 'capistrano/ext/multistage'
 
 require "bundler/capistrano"
 
-set :rvm_type, :user
+set :rvm_type, :system
 require "rvm/capistrano"
 
 load "config/recipes/base"
@@ -13,14 +13,14 @@ load "config/recipes/check"
 load "config/recipes/apache"
 load "config/recipes/log_rotate"
 
-server "172.16.3.110", :web, :app, :db, :primary => true
+server "172.16.12.7", :web, :app, :db, :primary => true
 
-set :application, "flappy.jsnow.com.conf"
+set :application, "Jsnow.pennunited.com"
 
 # There is a problem with rb-fsevent and deploying
 set :bundle_without, [:test, :development, :darwin]
 
-set :user, "jsnow"
+set :user, "rails"
 set :deploy_to, "/home/#{user}/apps/#{application}"
 set :deploy_via, :copy
 set :use_sudo, false
