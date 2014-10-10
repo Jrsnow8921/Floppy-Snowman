@@ -5,7 +5,7 @@ require 'capistrano/ext/multistage'
 
 require "bundler/capistrano"
 
-set :rvm_type, :system
+set :rvm_type, :user
 require "rvm/capistrano"
 
 load "config/recipes/base"
@@ -23,9 +23,10 @@ set :bundle_without, [:test, :development, :darwin]
 set :user, "jsnow"
 set :deploy_to, "/home/#{user}/apps/#{application}"
 set :deploy_via, :copy
-set :use_sudo, false
+set :use_sudo, true
 
 set :scm, :git
+set :branch, :master
 set :repository,  "git@github.com:Jrsnow8921/FlappyBird-master.git"
 
 default_run_options[:pty] = true

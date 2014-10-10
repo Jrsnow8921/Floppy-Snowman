@@ -6,7 +6,7 @@ gem 'haml'
 gem 'capistrano'
 gem 'rvm-capistrano'
 gem 'sass-rails'
-
+gem 'net-ssh', '~> 2.6.8'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'therubyracer'

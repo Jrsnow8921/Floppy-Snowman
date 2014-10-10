@@ -1,0 +1,49 @@
+# Commands to run on the new server
+#
+#ssh root@72.14.183.209
+#adduser deployer --ingroup admin
+#exit
+#cap deploy:install
+#cap deploy:setup
+#
+
+require "bundler/capistrano"
+
+load "config/recipes/base"
+load "config/recipes/nginx"
+load "config/recipes/unicorn"
+load "config/recipes/nodejs" # need node for assets
+load "config/recipes/rbenv"
+load "config/recipes/check"
+load "config/recipes/oracle"
+load "config/recipes/nokogiri"
+load "config/recipes/log_rotate"
+
+server "172.16.12.1", :web, :app, :db, :primary => true
+
+set :user, "deployer"
+set :application, "tooling.pennunited.com"
+set :deploy_to, "/home/#{user}/apps/#{application}"
+set :deploy_via, :remote_cache
+set :use_sudo, false
+
+set :scm, :git
+set :repository,  "git@github.com:pennunited/tooling-display.git"
+set :branch, "master"
+
+default_run_options[:pty] = true
+ssh_options[:forward_agent] = true
+
+after "deploy", "deploy:cleanup" # keep only last 5 releases
+
+# if you're still using the script/reaper helper you will need
+# these http://github.com/rails/irs_process_scripts
+
+# If you are using Passenger mod_rails uncomment this:
+# namespace :deploy do
+#   task :start do ; end
+#   task :stop do ; end
+#   task :restart, :roles => :app, :except => { :no_release => true } do
+#     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
+#   end
+# end
