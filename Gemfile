@@ -1,7 +1,16 @@
 source 'https://rubygems.org'
 #ruby '1.9.3'
-gem 'rails', '4.0.2'
-gem 'mysql'
+gem 'rails', '4.1.8'
+#gem 'mysql'
+gem 'pg'
+
+#web server
+gem 'puma'
+
+#timeout
+gem "rack-timeout"
+
+
 gem 'haml'
 gem 'capistrano'
 gem 'rvm-capistrano'
