@@ -1,0 +1,588 @@
+@-webkit-keyframes animLand {
+  /* line 2, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  0% {
+    background-position: 0px 0px;
+  }
+
+  /* line 3, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  100% {
+    background-position: -335px 0px;
+  }
+}
+
+@-moz-keyframes animLand {
+  /* line 6, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  0% {
+    background-position: 0px 0px;
+  }
+
+  /* line 7, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  100% {
+    background-position: -335px 0px;
+  }
+}
+
+@-o-keyframes animLand {
+  /* line 10, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  0% {
+    background-position: 0px 0px;
+  }
+
+  /* line 11, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  100% {
+    background-position: -335px 0px;
+  }
+}
+
+@keyframes animLand {
+  /* line 14, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  0% {
+    background-position: 0px 0px;
+  }
+
+  /* line 15, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  100% {
+    background-position: -335px 0px;
+  }
+}
+
+@-webkit-keyframes animSky {
+  /* line 19, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  0% {
+    background-position: 0px 100%;
+  }
+
+  /* line 20, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  100% {
+    background-position: -275px 100%;
+  }
+}
+
+@-moz-keyframes animSky {
+  /* line 23, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  0% {
+    background-position: 0px 100%;
+  }
+
+  /* line 24, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  100% {
+    background-position: -275px 100%;
+  }
+}
+
+@-o-keyframes animSky {
+  /* line 27, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  0% {
+    background-position: 0px 100%;
+  }
+
+  /* line 28, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  100% {
+    background-position: -275px 100%;
+  }
+}
+
+@keyframes animSky {
+  /* line 31, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  0% {
+    background-position: 0px 100%;
+  }
+
+  /* line 32, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  100% {
+    background-position: -275px 100%;
+  }
+}
+
+@-webkit-keyframes animBird {
+  /* line 36, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  from {
+    background-position: 0px 0px;
+  }
+
+  /* line 37, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  to {
+    background-position: 0px -96px;
+  }
+}
+
+@-moz-keyframes animBird {
+  /* line 40, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  from {
+    background-position: 0px 0px;
+  }
+
+  /* line 41, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  to {
+    background-position: 0px -96px;
+  }
+}
+
+@-o-keyframes animBird {
+  /* line 44, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  from {
+    background-position: 0px 0px;
+  }
+
+  /* line 45, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  to {
+    background-position: 0px -96px;
+  }
+}
+
+@keyframes animBird {
+  /* line 48, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  from {
+    background-position: 0px 0px;
+  }
+
+  /* line 49, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  to {
+    background-position: 0px -96px;
+  }
+}
+
+@-webkit-keyframes animPipe {
+  /* line 53, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  0% {
+    left: 900px;
+  }
+
+  /* line 54, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  100% {
+    left: -100px;
+  }
+}
+
+@-moz-keyframes animPipe {
+  /* line 57, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  0% {
+    left: 900px;
+  }
+
+  /* line 58, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  100% {
+    left: -100px;
+  }
+}
+
+@-o-keyframes animPipe {
+  /* line 61, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  0% {
+    left: 900px;
+  }
+
+  /* line 62, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  100% {
+    left: -100px;
+  }
+}
+
+@keyframes animPipe {
+  /* line 65, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  0% {
+    left: 900px;
+  }
+
+  /* line 66, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  100% {
+    left: -100px;
+  }
+}
+
+@-webkit-keyframes animCeiling {
+  /* line 70, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  0% {
+    background-position: 0px 0px;
+  }
+
+  /* line 71, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  100% {
+    background-position: -63px 0px;
+  }
+}
+
+@-moz-keyframes animCeiling {
+  /* line 74, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  0% {
+    background-position: 0px 0px;
+  }
+
+  /* line 75, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  100% {
+    background-position: -63px 0px;
+  }
+}
+
+@-o-keyframes animCeiling {
+  /* line 78, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  0% {
+    background-position: 0px 0px;
+  }
+
+  /* line 79, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  100% {
+    background-position: -63px 0px;
+  }
+}
+
+@keyframes animCeiling {
+  /* line 82, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  0% {
+    background-position: 0px 0px;
+  }
+
+  /* line 83, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+  100% {
+    background-position: -63px 0px;
+  }
+}
+
+/* line 87, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+*, *:before, *:after {
+  /* border box */
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* gpu acceleration */
+  -webkit-transition: translate3d(0, 0, 0);
+  /* select disable */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 103, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+html, body {
+  height: 100%;
+  overflow: hidden;
+  font-family: monospace;
+  font-size: 12px;
+  color: #fff;
+}
+
+/* line 111, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+#gamecontainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 525px;
+}
+
+/*
+Screen - Game
+*/
+/* line 121, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+#gamescreen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 127, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+#sky {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 80%;
+  background-image: url(/assets/sky.png);
+  background-repeat: repeat-x;
+  background-position: 0px 100%;
+  background-color: #4ec0ca;
+  -webkit-animation: animSky 7s linear infinite;
+  animation: animSky 7s linear infinite;
+}
+
+/* line 141, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+#flyarea {
+  position: absolute;
+  bottom: 0;
+  height: 420px;
+  width: 100%;
+}
+
+/* line 148, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+#ceiling {
+  position: absolute;
+  top: -16px;
+  height: 16px;
+  width: 100%;
+  background-image: url(/assets/ceiling.png);
+  background-repeat: repeat-x;
+  -webkit-animation: animCeiling 481ms linear infinite;
+  animation: animCeiling 481ms linear infinite;
+}
+
+/* line 160, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+#land {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  background-image: url(/assets/land.png);
+  background-repeat: repeat-x;
+  background-position: 0px 0px;
+  background-color: #ded895;
+  -webkit-animation: animLand 2516ms linear infinite;
+  animation: animLand 2516ms linear infinite;
+}
+
+/* line 174, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+#bigscore {
+  position: absolute;
+  top: 20px;
+  left: 150px;
+  z-index: 100;
+}
+/* line 180, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+#bigscore img {
+  display: inline-block;
+  padding: 1px;
+}
+
+/* line 186, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+#splash {
+  position: absolute;
+  opacity: 0;
+  top: 75px;
+  left: 65px;
+  width: 188px;
+  height: 170px;
+  background-image: url(/assets/splash.png);
+  background-repeat: no-repeat;
+}
+
+/* line 197, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+#scoreboard {
+  position: absolute;
+  display: none;
+  opacity: 0;
+  top: 64px;
+  left: 43px;
+  width: 236px;
+  height: 280px;
+  background-image: url(/assets/scoreboard.png);
+  background-repeat: no-repeat;
+  z-index: 1000;
+}
+
+/* line 211, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+#medal {
+  position: absolute;
+  opacity: 0;
+  top: 114px;
+  left: 32px;
+  width: 44px;
+  height: 44px;
+}
+
+/* line 220, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+#currentscore {
+  position: absolute;
+  top: 105px;
+  left: 107px;
+  width: 104px;
+  height: 14px;
+  text-align: right;
+}
+/* line 228, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+#currentscore img {
+  padding-left: 2px;
+}
+
+/* line 231, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+#highscore {
+  position: absolute;
+  top: 147px;
+  left: 107px;
+  width: 104px;
+  height: 14px;
+  text-align: right;
+}
+/* line 239, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+#highscore img {
+  padding-left: 2px;
+}
+
+/* line 242, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+#replay {
+  position: absolute;
+  opacity: 0;
+  top: 205px;
+  left: 61px;
+  height: 115px;
+  width: 70px;
+  cursor: pointer;
+}
+
+/* line 252, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+.boundingbox {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: 1px solid red;
+}
+
+/* line 262, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+#player {
+  left: 60px;
+  top: 200px;
+}
+
+/* line 267, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+.bird {
+  position: absolute;
+  width: 34px;
+  height: 24px;
+  background-image: url(/assets/bird.png);
+  -webkit-animation: animBird 300ms steps(4) infinite;
+  animation: animBird 300ms steps(4) infinite;
+}
+
+/* line 277, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+.pipe {
+  position: absolute;
+  left: -100px;
+  width: 52px;
+  height: 100%;
+  z-index: 10;
+  -webkit-animation: animPipe 7500ms linear;
+  animation: animPipe 7500ms linear;
+}
+
+/* line 288, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+.pipe_upper {
+  position: absolute;
+  top: 0;
+  width: 52px;
+  background-image: url(/assets/pipe.png);
+  background-repeat: repeat-y;
+  background-position: center;
+}
+/* line 296, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+.pipe_upper:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 52px;
+  height: 26px;
+  background-image: url(/assets/pipe-down.png);
+}
+
+/* line 306, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+.pipe_lower {
+  position: absolute;
+  bottom: 0;
+  width: 52px;
+  background-image: url(/assets/pipe.png);
+  background-repeat: repeat-y;
+  background-position: center;
+}
+/* line 314, /home/programmer/FlappyBird-master/app/assets/stylesheets/main.css.scss */
+.pipe_lower:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 52px;
+  height: 26px;
+  background-image: url(/assets/pipe-up.png);
+}
+
+/* html5doctor.com Reset v1.6.1 - http://cssreset.com */
+/* line 3, /home/programmer/FlappyBird-master/app/assets/stylesheets/reset.css.scss */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 3, /home/programmer/FlappyBird-master/app/assets/stylesheets/reset.css.scss */
+body {
+  line-height: 1;
+}
+
+/* line 3, /home/programmer/FlappyBird-master/app/assets/stylesheets/reset.css.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 3, /home/programmer/FlappyBird-master/app/assets/stylesheets/reset.css.scss */
+nav ul {
+  list-style: none;
+}
+
+/* line 3, /home/programmer/FlappyBird-master/app/assets/stylesheets/reset.css.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 3, /home/programmer/FlappyBird-master/app/assets/stylesheets/reset.css.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none;
+}
+
+/* line 3, /home/programmer/FlappyBird-master/app/assets/stylesheets/reset.css.scss */
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 3, /home/programmer/FlappyBird-master/app/assets/stylesheets/reset.css.scss */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 3, /home/programmer/FlappyBird-master/app/assets/stylesheets/reset.css.scss */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 3, /home/programmer/FlappyBird-master/app/assets/stylesheets/reset.css.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 3, /home/programmer/FlappyBird-master/app/assets/stylesheets/reset.css.scss */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+/* line 3, /home/programmer/FlappyBird-master/app/assets/stylesheets/reset.css.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 3, /home/programmer/FlappyBird-master/app/assets/stylesheets/reset.css.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 3, /home/programmer/FlappyBird-master/app/assets/stylesheets/reset.css.scss */
+input, select {
+  vertical-align: middle;
+}

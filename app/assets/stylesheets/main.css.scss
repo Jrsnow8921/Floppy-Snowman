@@ -132,7 +132,7 @@ Screen - Game
   background-image: image-url("sky.png");
   background-repeat: repeat-x;
   background-position: 0px 100%;
-  background-color: #4ec0ca;
+  background-color: #87cbff;
 
   -webkit-animation: animSky 7s linear infinite;
   animation: animSky 7s linear infinite;
@@ -165,7 +165,7 @@ Screen - Game
   background-image: image-url("land.png");
   background-repeat: repeat-x;
   background-position: 0px 0px;
-  background-color: #ded895;
+  background-color: #DAE5E8;
 
   -webkit-animation: animLand 2516ms linear infinite;
   animation: animLand 2516ms linear infinite;
@@ -270,8 +270,8 @@ Screen - Game
   height: 24px;
   background-image: image-url("bird.png");
 
-  -webkit-animation: animBird 300ms steps(4) infinite;
-  animation: animBird 300ms steps(4) infinite;
+  //-webkit-animation: animBird 300ms steps(4) infinite;
+  //animation: animBird 300ms steps(4) infinite;
 }
 
 .pipe {
